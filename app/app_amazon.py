@@ -19,7 +19,7 @@ df = load_data()
 
 # Sidebar Filters
 
-st.sidebar.header('🔎 | Filters')
+gist.sidebar.header('🔎 | Filters')
 
 # Regions
 
