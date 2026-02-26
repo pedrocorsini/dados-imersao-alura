@@ -19,7 +19,7 @@ df = load_data()
 
 # Sidebar Filters
 
-gist.sidebar.header('🔎 | Filters')
+st.sidebar.header('🔎 | Filters')
 
 # Regions
 
@@ -178,4 +178,5 @@ with tab1:
             st.warning('There is no data available for this graph')
 
 with tab2:
+    tab2.header('Amazon Sales Complete Data Frame')
     st.dataframe(df_filtered, width='stretch', hide_index=True)
