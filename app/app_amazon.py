@@ -5,7 +5,7 @@ import plotly.express as px
 # layout        
 st.set_page_config(
     page_title='Amazon Sales Dashboard',
-    page_icon='📈',
+    page_icon='📈', 
     layout='wide',
     initial_sidebar_state='collapsed',
 )
@@ -14,7 +14,7 @@ st.set_page_config(
 
 @st.cache_data
 def load_data():
-    return pd.read_csv('../resources/amazon_sales_highly_unbalanced_v3.csv')
+    return pd.read_csv('resources/amazon_sales_highly_unbalanced_v3.csv')
 df = load_data()
 
 # Sidebar Filters
