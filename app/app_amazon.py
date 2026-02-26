@@ -127,7 +127,7 @@ with tab1:
             fig_region_category.update_yaxes(title_text='Quantity Sales Per Category')
             st.plotly_chart(fig_region_category, width='stretch')
         else:
-            st.warning('There is no data available for this graph')
+            st.warning('There is    no data available for this graph')
 
     col_graph3, col_graph4 = st.columns(2)
 
